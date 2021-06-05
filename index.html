@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="quiz" id="quiz">
+        <div class="quiz-questions" id="questions" ></div>
+        <div class="quiz-indicator" id="indicator">1/10</div>
+        <div class="quiz-results" id="results">
+            <div class="quiz-results-item">
+                <div class="quiz-results-item__question">Вопрос 1</div>
+                <ul class="quiz-results-item__answers">
+                    <li>Ответ 1</li>
+                    <li>Ответ 2</li>
+                </ul>
+            </div>
+        </div>
+        <div class="quiz-controls">
+            <button class="btn btn-success btn-next" id="btn-next" disabled>Далее</button>
+            <button class="btn btn-warning btn-restart" id="btn-restart">С начала</button>
+        </div>
+    </div>
+</body>
+
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+</html>

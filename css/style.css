@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,400&display=swap");
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.quiz {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.quiz-questions,
+.quiz-indicator,
+.quiz-results {
+  margin-bottom: 20px;
+}
+
+.quiz-questions-item,
+.quiz-indicator-item,
+.quiz-results-item {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.quiz-questions-item__question,
+.quiz-indicator-item__question,
+.quiz-results-item__question {
+  margin: 20px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.quiz-questions-item__answers,
+.quiz-indicator-item__answers,
+.quiz-results-item__answers {
+  margin: 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+li label {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.quiz-results {
+  display: none;
+}
+
+.btn-restart {
+  display: none;
+}
+
+.questions--hidden,
+.indicator--hidden,
+.btn-next--hidden {
+  display: none;
+}
+
+.results--visible,
+.btn-restart--visible {
+  display: block;
+}
+
+.answer--invalid {
+  color: red;
+}
+
+.answer--valid {
+  color: green;
+}
+
+.quiz-indicator {
+  text-align: center;
+  font-weight: 700;
+}
+
+.quiz-controls {
+  text-align: center;
+}
